@@ -1,0 +1,41 @@
+.landing {
+    background-color: #666666;
+    background-image: url('images/coffee-landing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.landing-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.landing-content {
+    position: relative;
+}
+.footer-social-link {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+
+}
+.footer-social-icon {
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.footer-social-icon, .footer-icon-text {
+    vertical-align: middle;
+}
+.product-column {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.fade-out {
+    opacity: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .landing-content {
+        padding: 100px 0;
+    }
+}
